@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color: #ffcfa6
+}
+
+h1 {
+    color: #e66a00;
+    font-family: Monoton;
+    font-size: 70px;
+    margin: 0.2em;
+    text-shadow: 3px 2px black
+}
+
+h2 {
+    color: #ff7600;
+    margin: 1em 0 0.25em;
+    text-shadow: 1px 1px black
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+    color: #ff7600;
+    text-shadow: 1px 1px black
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 6em;
+}
